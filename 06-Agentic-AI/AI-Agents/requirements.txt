@@ -1,0 +1,8 @@
+# AI Agents
+# Frameworks and tools for building agentic AI systems
+
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+python-dotenv>=1.0.0
+

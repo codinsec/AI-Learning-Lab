@@ -1,0 +1,26 @@
+# AI Learning Lab - Common Dependencies
+# This file contains dependencies used across multiple sections
+# Section-specific requirements.txt files should be in their respective project folders
+
+# Core Python utilities
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+
+# Type checking and validation
+pydantic>=2.0.0,<3.0.0
+typing-extensions>=4.8.0
+
+# Async support
+aiohttp>=3.9.0
+httpx>=0.25.0
+
+# Logging and utilities
+python-dotenv>=1.0.0
+
+# Development tools (optional, for local development)
+# Uncomment if needed:
+# pytest>=7.4.0
+# black>=23.0.0
+# ruff>=0.1.0
+# mypy>=1.7.0
+

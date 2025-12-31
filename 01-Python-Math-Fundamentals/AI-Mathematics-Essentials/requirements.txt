@@ -1,0 +1,5 @@
+# AI Mathematics Essentials
+# Minimal dependencies for mathematical concepts
+
+numpy>=1.24.0,<2.0.0
+

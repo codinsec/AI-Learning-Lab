@@ -205,3 +205,102 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# AI Learning Lab - Sensitive Information
+# Prevent AI-related sensitive data from being committed
+
+# API Keys and Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+credentials/
+api_keys.txt
+*.secret
+
+# AI Model Files (large and potentially sensitive)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+models/
+checkpoints/
+weights/
+*.onnx
+*.tflite
+
+# Vector Database Data
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+vector_db/
+embeddings/
+*.index
+
+# AI-generated content and outputs
+generated/
+outputs/
+results/
+*.generated
+ai_outputs/
+llm_responses/
+
+# Training data and datasets (may contain sensitive info)
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+*.arrow
+!**/example_*.csv
+!**/sample_*.json
+
+# Logs and traces (may contain prompts and responses)
+logs/
+*.log
+langsmith/
+traces/
+*.trace
+
+# Cache directories
+.cache/
+cache/
+__cache__/
+*.cache
+
+# Roadmap and planning documents (internal use only)
+roadmap.md
+roadmap.txt
+planning/
+notes.md
+!README.md
+
+# Temporary AI experiment files
+experiments/
+temp/
+tmp/
+scratch/
+playground/
+
+# Jupyter notebook checkpoints (already covered but explicit)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model artifacts and artifacts
+artifacts/
+mlruns/
+wandb/
+tensorboard/
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+*.rar
+*.7z
+!**/sample_data/*.zip
